@@ -1,7 +1,7 @@
 Liferay Portlet Property Demo
 =============================
 
-A Liferay Spring Portlet MVC project template using Maven.
+A demo of a Liferay portlet that has preferences that can be configured with Options->Configuration->Setup.
 
 * Liferay EE 6.1.20
 * Java 1.6
@@ -79,7 +79,7 @@ to liferay-portlet.xml.
 
 * Implement the ConfigurationAction.
 * Create a view for the Options->Configuration->Setup tab (configuration.jsp in this example).
-* Read the preference in your own code with 
+* Read the preferences in your own code with 
 ```java
 request.getPreferences().getValue(Constants.MESSAGE_PARAM, Constants.DEFAULT_MESSAGE)
 ```
