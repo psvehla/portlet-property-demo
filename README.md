@@ -47,7 +47,11 @@ Default settings are Liferay EE 6.1.20, Java 1.6, Portlet 2.0, and Spring 3.2.  
 Important Points to Note When Adding Preferences to Your Own Portlet
 --------------------------------------------------------------------
 
-* Add your <portlet-preferences/> to your portlet.xml.
+* Add your
+```xml 
+<portlet-preferences/>
+``` 
+to your portlet.xml.
 * Add 
 ```xml
 <configuration-action-class>au.com.redbarn.liferay.spring.mvc.portlet.ConfigurationActionImpl</configuration-action-class>
