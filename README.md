@@ -48,7 +48,7 @@ Important Points to Note When Adding Preferences to Your Own Portlet
 --------------------------------------------------------------------
 
 * Add your
-```xml 
+```
 <portlet-preferences/>
 ``` 
 to your portlet.xml.
