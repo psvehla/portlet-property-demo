@@ -44,29 +44,6 @@ Default settings are Liferay EE 6.1.20, Java 1.6, Portlet 2.0, and Spring 3.2.  
 	</properties>
 ```
 
-Archetype
----------
-
-The main point of this project is to create a Maven archetype.
-
-Add an entry for the archetype in: ```~/.m2/archetype-catalog.xml```
-
-```xml
-<archetype>
-  <groupId>au.com.redbarn</groupId>
-  <artifactId>liferay-spring-mvc-portlet-archetype</artifactId>
-  <version>1.0-RELEASE</version>
-  <repository>https://raw.github.com/psvehla/maven-repo/master/releases</repository>
-  <description>liferay-spring-mvc-portlet-archetype</description>
-</archetype>
-```
-
-Run the maven archetype generate command.  Follow the prompts to specify the groupId, artifactId, and version for your project.
-
-```bash
-$ mvn archetype:generate -DarchetypeCatalog=local
-```
-
 Important Points to Note When Adding Preferences to Your Own Portlet
 --------------------------------------------------------------------
 
