@@ -12,7 +12,7 @@
 	<!-- DispatcherPortlet Context: defines this olaf's request-processing infrastructure -->
 	
 	<!-- Autodetect annotated controllers -->
-	<context:component-scan base-package="au.com.redbarn.liferay.spring.mvc.portlet" />
+	<context:component-scan base-package="au.com.redbarn.liferay.portlet.property" />
 
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
